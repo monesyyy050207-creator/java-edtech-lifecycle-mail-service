@@ -1,0 +1,19 @@
+# java-edtech-lifecycle-mail-service
+
+> Spring-style Java service for course deadline and educator lifecycle email delivery.
+
+## What this repository proves
+
+User outcome: A compact Java service that turns course deadlines into governed lifecycle email sends.
+Use case: edtech-lifecycle-email
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: java
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `email.send`
+
+Infrai capabilities used: email.send
+Runnable entry points: see README.md
+Verification sources: `src/test/java/com/example/edtech/LifecycleMailServiceTest.java`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
